@@ -1,0 +1,8 @@
+
+<view id="id" bindtap = "handletap" bindtouchstart = "handletouchtart" bindtouchmove="handletouchmove" class='display'>
+{{text}}
+</view>
+<view animation="{{animationData}}" class='jiaozhun'><text>校准位置</text></view>
+<view class='anniu'>
+<button animation="{{animationData}}" plain='true' class='button'>我是一个按钮</button>
+</view> 

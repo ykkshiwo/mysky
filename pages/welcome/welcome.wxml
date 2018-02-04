@@ -1,0 +1,24 @@
+<view id="id" bindtap = "handletap" bindtouchstart = "handletouchtart" bindtouchmove="handletouchmove" class='display'>
+  <block wx:for="{{thoughts}}" wx:for-item="khditem" wx:for-index="khditemindex">
+  <view class='comment-item'>
+  <view class='comment-item-header'>
+    <view class="left-img">
+      <image src="{{khditem.avatarUrl}}"></image>
+    </view>
+  <view class="right-user">
+    <text class="user-name">{{khditem.nickname}}</text>
+  </view>
+  </view>
+  <view class='comment-body'>
+  <view class="comment-txt">
+     <text>{{khditem.content}}</text>
+  </view>
+  </view>
+  <view class="comment-time">{{khditem.createtime_t}}</view>
+  </view>
+  </block>
+</view>
+<view animation="{{animationData}}" class='jiaozhun' catchtap='jiaoZhun'><text>校准位置</text></view>
+<view class='anniu'>
+<button animation="{{animationData}}" plain='true' class='button' catchtap='toFabiao' type="primary">种下蒲公英</button>
+</view> 

@@ -1,0 +1,107 @@
+
+.anniu{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.button{
+  width: 35%;
+  border: 1px solid green;
+  position: relative;
+  bottom: 6rpx;
+}
+
+.pgy_w{
+  width: 200rpx;
+  height: 60rpx;
+  border-radius: 5px;
+  text-align:center;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pgy{
+  font-size: 35rpx;
+  color: wheat;
+  border: 1px solid green;
+}
+
+.display{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling:touch;
+}
+
+.jiaozhun{
+  position: absolute;
+  top: 15rpx;
+  right: 15rpx;
+  text-align: center;
+  border: 1px solid green;
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  font-size: 35rpx;
+  font-family: Heiti;
+  padding: 5rpx;
+  -moz-box-shadow:7px 3px 5px #333333; 
+  -webkit-box-shadow:7px 3px 5px #333333; 
+  box-shadow:7px 3px 5px #333333;
+}
+
+.comment-item {
+  margin: 20rpx 0 20rpx 24rpx;
+  padding: 24rpx 24rpx 24rpx 0;
+  border-bottom: 1rpx solid #f2e7e1;
+}
+
+.comment-time {
+  margin-top: 10rpx;
+  color: #ccc;
+  font-size: 24rpx;
+}
+
+.comment-txt text {
+  line-height: 50rpx;
+}
+
+.comment-item-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.comment-item-header .left-img image {
+  height: 80rpx;
+  width: 80rpx;
+}
+
+.comment-item-header .right-user {
+  margin-left: 30rpx;
+  line-height: 80rpx;
+}
+
+.comment-item-header .right-user text {
+  font-size: 26rpx;
+  color: #212121;
+}
+
+.comment-body {
+  font-size: 26rpx;
+  line-height: 26rpx;
+  color: #666;
+  padding: 10rpx 0;
+}
+
+.comment-item-header .left-img image {
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 50%;
+}

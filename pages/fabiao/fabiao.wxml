@@ -1,0 +1,6 @@
+<view class='back' catchtap='focusshiqu'> 
+  <textarea class='text_thought' maxlength='35' placeholder='让蒲公英捎上你想说的话（限35字）' value='{{keyboardvalue}}' bindinput='bindCommentInput' focus='{{focus}}'></textarea>
+  <view class='sky_enter' catchtap='sentThoughtnokong'>
+    <text class="journey">发送</text>
+  </view>
+</view>       

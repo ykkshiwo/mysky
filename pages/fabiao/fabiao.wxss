@@ -1,0 +1,33 @@
+.sky_enter{
+    margin-top: 200rpx;
+    border: 1px solid #EA5A3C;
+    width: 200rpx;
+    height: 80rpx;
+    border-radius: 5px;
+    text-align:center;
+}
+
+.journey{
+    font-size:22rpx;
+    font-weight: bold;
+    line-height:80rpx;
+    color: #EA5A3C;
+}
+
+.text_thought{
+  border: 1px solid grey;
+  margin-top: 160rpx;
+  height: 75px;
+  padding: 6rpx;
+  border-radius: 5px;
+}
+
+.back{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+page{
+  background-color: yellowgreen;
+}
